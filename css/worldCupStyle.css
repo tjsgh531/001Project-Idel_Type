@@ -1,0 +1,90 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    align:center;
+}
+html,body{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background: black;
+}
+body{
+    height: 90%;
+}
+#wrap{
+    width: 100%;
+    height:85%;
+    margin: auto 0;
+}
+.titleText{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    color:white;
+
+    box-sizing: border-box;
+    margin: 100px 0 30px 30px;
+}
+.buttonSpace{
+    width: 100%;
+    height : 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+#leftSpace{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#leftSpace > img{
+    height: 1000px;
+    width : 100%;
+    opacity: 0.6;
+}
+#rightSpace{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#rightSpace > img{
+    height: 1000px;
+    width : 100%;
+    opacity: 0.6;
+}
+#leftBtnName{
+    text-align: center;
+    color:white;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+#rightBtnName{
+    text-align: center;
+    color:white;
+
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+

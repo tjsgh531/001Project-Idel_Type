@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width:100%;
+}
+body{
+    background: black;
+}
+#wrap{
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#currentResult{
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    
+}
+#currentResult> h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 20px;
+    padding-bottom: 40px; 
+}
